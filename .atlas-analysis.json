@@ -1,0 +1,208 @@
+{
+  "projectType": "saas",
+  "projectName": "Opik",
+  "projectDescription": "Open-source AI Observability, Evaluation, and Optimization platform for LLM applications",
+  "theme": "aspen",
+  "primaryColor": "#fcd10f",
+  "lightColor": "#faf3e6",
+  "darkColor": "#d53c3e",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Tracing & Observability",
+            "pages": [
+              "tracing/overview",
+              "tracing/logging-traces",
+              "tracing/traces-and-spans",
+              "tracing/annotations",
+              "tracing/feedback-scores",
+              "tracing/distributed-tracing"
+            ]
+          },
+          {
+            "group": "Evaluation & Testing",
+            "pages": [
+              "evaluation/overview",
+              "evaluation/datasets",
+              "evaluation/experiments",
+              "evaluation/metrics",
+              "evaluation/llm-as-judge",
+              "evaluation/pytest-integration"
+            ]
+          },
+          {
+            "group": "Production Monitoring",
+            "pages": [
+              "production/overview",
+              "production/dashboards",
+              "production/online-evaluation",
+              "production/feedback-collection"
+            ]
+          },
+          {
+            "group": "Agent Optimization",
+            "pages": [
+              "optimization/overview",
+              "optimization/prompt-optimization",
+              "optimization/agent-optimizer"
+            ]
+          },
+          {
+            "group": "Guardrails",
+            "pages": [
+              "guardrails/overview",
+              "guardrails/moderation",
+              "guardrails/safety-rules"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/langchain",
+              "integrations/openai",
+              "integrations/anthropic",
+              "integrations/llama-index",
+              "integrations/litellm",
+              "integrations/google-adk",
+              "integrations/bedrock",
+              "integrations/haystack",
+              "integrations/dspy",
+              "integrations/crewai"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/docker",
+              "self-hosting/kubernetes",
+              "self-hosting/configuration",
+              "self-hosting/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Python SDK",
+        "groups": [
+          {
+            "group": "Core",
+            "pages": [
+              "python-sdk/client",
+              "python-sdk/configuration",
+              "python-sdk/decorators"
+            ]
+          },
+          {
+            "group": "Tracing",
+            "pages": [
+              "python-sdk/trace",
+              "python-sdk/span",
+              "python-sdk/context"
+            ]
+          },
+          {
+            "group": "Evaluation",
+            "pages": [
+              "python-sdk/dataset",
+              "python-sdk/experiment",
+              "python-sdk/metrics",
+              "python-sdk/evaluate"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "python-sdk/prompts",
+              "python-sdk/agent-config",
+              "python-sdk/simulation",
+              "python-sdk/annotation-queues"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "TypeScript SDK",
+        "groups": [
+          {
+            "group": "Core",
+            "pages": [
+              "typescript-sdk/client",
+              "typescript-sdk/configuration",
+              "typescript-sdk/decorators"
+            ]
+          },
+          {
+            "group": "Tracing",
+            "pages": [
+              "typescript-sdk/trace",
+              "typescript-sdk/span",
+              "typescript-sdk/context"
+            ]
+          },
+          {
+            "group": "Evaluation",
+            "pages": [
+              "typescript-sdk/dataset",
+              "typescript-sdk/experiment",
+              "typescript-sdk/metrics",
+              "typescript-sdk/evaluate"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "typescript-sdk/openai",
+              "typescript-sdk/langchain",
+              "typescript-sdk/gemini",
+              "typescript-sdk/vercel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Comprehensive LLM tracing with deep observability for calls, conversations, and agent activity",
+    "Advanced evaluation with datasets, experiments, and LLM-as-a-judge metrics",
+    "Production monitoring with scalable dashboards and online evaluation rules",
+    "Agent optimization with dedicated SDK for prompt and agent enhancement",
+    "Guardrails for safe and responsible AI implementation",
+    "Extensive integrations with LangChain, OpenAI, Anthropic, LlamaIndex, and more",
+    "Self-hosted and cloud deployment options",
+    "Python and TypeScript SDKs with decorator-based tracing",
+    "Automated hallucination detection and RAG assessment",
+    "PyTest integration for CI/CD workflows"
+  ],
+  "publicApiSurface": [
+    "opik.Opik - Main client class",
+    "opik.track - Decorator for automatic tracing",
+    "opik.Trace - Trace context manager",
+    "opik.Span - Span context manager",
+    "opik.Dataset - Dataset management",
+    "opik.evaluate - Evaluation runner",
+    "opik.configure - SDK configuration",
+    "opik.AgentConfig - Agent configuration",
+    "opik.Prompt - Prompt management",
+    "opik.llm_unit - PyTest decorator",
+    "Opik (TypeScript) - Main client class",
+    "track (TypeScript) - Tracing decorator",
+    "Dataset (TypeScript) - Dataset management",
+    "evaluate (TypeScript) - Evaluation runner",
+    "TracesAnnotationQueue - Annotation queue for traces",
+    "ThreadsAnnotationQueue - Annotation queue for threads"
+  ]
+}
